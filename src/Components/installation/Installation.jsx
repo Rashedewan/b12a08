@@ -17,7 +17,7 @@ const Installation = () => {
     }, [])
 
     const [sort, setSort] = useState("")
-
+console.log(sort)
     const handleSort = (type) => {
         setSort(type)
         if(type === 'lth'){

@@ -1,7 +1,7 @@
 import React from 'react';
 import logoImg from '../../../assets/logo.png'
 import github from '../../../assets/github.png'
-import { Link, NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
