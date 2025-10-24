@@ -4,14 +4,18 @@ import review from '../../../assets/icon-review.png'
 import ratings from '../../../assets/icon-ratings.png'
 import { setBookData } from '../../utility/utility';
 import Chart from './chart';
+import { ToastContainer, toast } from 'react-toastify';
 
 const AppDetail = ({ singleApp }) => {
+
+    const notify = () => toast("App has been installed")
 
     const handleAppsArr = (id) => {
         setBookData(id)
     }
     return (
         <div className='flex p-4 '>
+            <ToastContainer />
             <div>
                 <img className='p-4 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_-4px_6px_-1px_rgba(0,0,0,0.1)] ' src={singleApp.image} alt="" />
             </div>
@@ -40,7 +44,7 @@ const AppDetail = ({ singleApp }) => {
                     </div>
 
                 </div>
-                <button onClick={()=>handleAppsArr(singleApp.id)} className='btn btn-primary mt-5'>Install Now ( {singleApp.size} MB )</button>
+                <button onClick={()=>{handleAppsArr(singleApp.id); notify() }} className='btn btn-primary mt-5'>Install Now ( {singleApp.size} MB )</button>
             </div>
              
  
