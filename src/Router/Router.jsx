@@ -1,5 +1,5 @@
 import React from 'react';
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import Root from '../Components/Root/Root';
 import Home from '../Components/Home/Home';
 import AppsList from '../Components/Apps/AppsList';
@@ -15,7 +15,7 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
      children: [
       { index: true,
-        loader: () => fetch("TradingApp.json"),
+        loader: () => fetch("AllAppsData.json"),
          Component: Home },
         {path:'/apps',
           loader: () => fetch("AllAppsData.json"),

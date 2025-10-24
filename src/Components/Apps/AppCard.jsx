@@ -1,7 +1,7 @@
 import React from 'react';
 import dload from '../../../assets/icon-downloads.png'
 import review from '../../../assets/icon-ratings.png'
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const AppCard = ({ data }) => {
     return (

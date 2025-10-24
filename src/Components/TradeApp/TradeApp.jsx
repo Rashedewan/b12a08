@@ -1,7 +1,7 @@
 import React from 'react';
 import dload from '../../../assets/icon-downloads.png'
 import review from '../../../assets/icon-ratings.png'
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const TradeApp = ({ dt }) => {
 
@@ -13,8 +13,8 @@ const TradeApp = ({ dt }) => {
                 </div>
                 <h1 className='font-semibold mt-3 text-center'>{dt.title}</h1>
                 <div className='flex justify-between mt-3'>
-                    <h3 className='w-[90px] h-[31px] bg-[#F1F5E8] p-3  flex items-center gap-1'> <img className='w-[16px] h-[16px]' src={dload} /> {dt.downloads}</h3>
-                    <h3 className='w-[52px] h-[31px] bg-[#FFF0E1] p-3 flex items-center gap-1'><img className='w-[16px] h-[16px]' src={review} />{dt.ratings[4].name}</h3>
+                    <h3 className='w-[85px] h-[31px] bg-[#F1F5E8] p-3  flex items-center gap-1'> <img className='w-[16px] h-[16px]' src={dload} /> {dt.downloads}M</h3>
+                    <h3 className='w-[60px] h-[31px] bg-[#FFF0E1] p-3 flex items-center gap-1'><img className='w-[16px] h-[16px]' src={review} />{dt.ratingAvg}</h3>
                 </div>
             </div>
         </Link>
