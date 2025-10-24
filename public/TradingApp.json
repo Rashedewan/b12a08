@@ -4,146 +4,146 @@
 [
   {
     "image": "https://i.ibb.co.com/q38CwhRB/demo-app-2.webp",
-    "title": "TaskMaster",
-    "companyName": "Productive Inc",
-    "id": 1,
-    "description": "Organize your tasks efficiently and boost productivity.",
-    "size": 45,
-    "reviews": 1200,
-    "ratingAvg": 4.5,
-    "downloads": 50000,
+    "title": "NewsFlash",
+    "companyName": "MediaHub",
+    "id": 9,
+    "description": "Stay updated with the latest news worldwide.",
+    "size": 50,
+    "reviews": 1800,
+    "ratingAvg": 4.3,
+    "downloads": 70,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q38CwhRB/demo-app-4.webp",
+    "title": "MusicStream",
+    "companyName": "SoundWave Inc",
+    "id": 10,
+    "description": "Stream millions of songs ad-free and offline.",
+    "size": 80,
+    "reviews": 2400,
+    "ratingAvg": 4.6,
+    "downloads": 120,
     "ratings": [
       { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 ", "count": 600 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/TMhpfCRn/demo-app-4.webp",
-    "title": "FitTrack",
-    "companyName": "Healthify Labs",
-    "id": 2,
-    "description": "Track your fitness goals and monitor progress daily.",
-    "size": 38,
-    "reviews": 850,
-    "ratingAvg": 4.2,
-    "downloads": 35000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 25 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 ", "count": 355 }
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1410 }
     ]
   },
   {
     "image": "https://i.ibb.co.com/Y763cJwk/demo-app-5.webp",
-    "title": "PhotoSpark",
-    "companyName": "SnapTech",
-    "id": 3,
-    "description": "Enhance your photos with amazing filters and effects.",
-    "size": 60,
-    "reviews": 2000,
-    "ratingAvg": 4.7,
-    "downloads": 75000,
+    "title": "ShopEasy",
+    "companyName": "RetailerX",
+    "id": 11,
+    "description": "Online shopping app with amazing deals and offers.",
+    "size": 65,
+    "reviews": 2200,
+    "ratingAvg": 4.5,
+    "downloads": 95,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1290 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k2FQQGnt/demo-app-3.webp",
+    "title": "WeatherNow",
+    "companyName": "ClimateTech",
+    "id": 12,
+    "description": "Get accurate weather forecasts and alerts instantly.",
+    "size": 20,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 60,
     "ratings": [
       { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 25 },
-      { "name": "3 star", "count": 100 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
       { "name": "4 star", "count": 500 },
-      { "name": "5 ", "count": 1345 }
+      { "name": "5 star", "count": 730 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/TMhpfCRn/demo-app-4.webp",
-    "title": "BudgetWise",
-    "companyName": "FinanceHub",
-    "id": 4,
-    "description": "Manage your finances and track expenses effortlessly.",
-    "size": 25,
-    "reviews": 950,
-    "ratingAvg": 4.3,
-    "downloads": 42000,
-    "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 ", "count": 445 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/q38CwhRB/demo-app-5.webp",
-    "title": "TravelMate",
-    "companyName": "Wanderlust Co",
-    "id": 5,
-    "description": "Plan trips, book hotels, and discover amazing places.",
-    "size": 55,
-    "reviews": 1800,
+    "image": "https://i.ibb.co.com/0VGxm58y/demo-app-6.webp",
+    "title": "PhotoEditorPro",
+    "companyName": "PixMagic",
+    "id": 13,
+    "description": "Advanced photo editor with creative filters and effects.",
+    "size": 90,
+    "reviews": 1700,
     "ratingAvg": 4.6,
-    "downloads": 65000,
+    "downloads": 85,
     "ratings": [
       { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 35 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 ", "count": 1075 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/TMhpfCRn/demo-app-2.webp",
-    "title": "MindRelax",
-    "companyName": "ZenSoft",
-    "id": 6,
-    "description": "Meditation and mindfulness app for stress relief.",
-    "size": 30,
-    "reviews": 1100,
-    "ratingAvg": 4.4,
-    "downloads": 48000,
-    "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 ", "count": 505 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/Y763cJwk/demo-app-5.webp",
-    "title": "LearnLang",
-    "companyName": "EduTech",
-    "id": 7,
-    "description": "Learn new languages easily with interactive lessons.",
-    "size": 70,
-    "reviews": 2200,
-    "ratingAvg": 4.8,
-    "downloads": 90000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 ", "count": 1565 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/TMhpfCRn/demo-app-2.webp",
-    "title": "RecipeBox",
-    "companyName": "Culinary Labs",
-    "id": 8,
-    "description": "Discover and save your favorite recipes easily.",
-    "size": 40,
-    "reviews": 1300,
-    "ratingAvg": 4.5,
-    "downloads": 52000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
       { "name": "2 star", "count": 30 },
       { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 980 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k23Dqpg5/demo-app-1.webp",
+    "title": "Foodie",
+    "companyName": "YummyTech",
+    "id": 14,
+    "description": "Discover restaurants and order food online quickly.",
+    "size": 55,
+    "reviews": 2000,
+    "ratingAvg": 4.5,
+    "downloads": 90,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1110 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y763cJwk/demo-app-3.webp",
+    "title": "WorkoutPal",
+    "companyName": "FitLife",
+    "id": 15,
+    "description": "Personalized workout plans for all fitness levels.",
+    "size": 35,
+    "reviews": 1400,
+    "ratingAvg": 4.3,
+    "downloads": 55,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
       { "name": "4 star", "count": 400 },
-      { "name": "5", "count": 700 }
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y763cJwk/demo-app-4.webp",
+    "title": "StudyBuddy",
+    "companyName": "EduSmart",
+    "id": 16,
+    "description": "Learning app with quizzes and notes for every subject.",
+    "size": 60,
+    "reviews": 1900,
+    "ratingAvg": 4.6,
+    "downloads": 78,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1040 }
     ]
   }
 ]

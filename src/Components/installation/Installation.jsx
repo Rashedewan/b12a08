@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router';
+import { useLoaderData } from 'react-router-dom';
 import { getStoredData } from '../../utility/utility';
 import InstallCard from './InstallCard';
 
